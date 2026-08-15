@@ -1,0 +1,798 @@
+[2026-08-15 17:39:28,157] [INFO][Developer] Starting mobile logger
+[2026-08-15 17:39:28,157] [INFO][Developer] Mobile logger started 172.31.144.1 10509
+[2026-08-15 17:39:28,201] [INFO][Developer] start readStudio
+[2026-08-15 17:39:49,854] [ERROR][Engine] behavior_pack开发测试 | actor_definitions | C:/Users/admin/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/e9dbb19bd5fd42b6b149a266bc607320 | verity:hallucination | minecraft:entity | components | minecraft:despawn | never_despawn | child 'never_despawn' not valid here.
+
+
+[2026-08-15 17:39:49,865] [ERROR][Engine] behavior_pack开发测试 | actor_definitions | C:/Users/admin/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/e9dbb19bd5fd42b6b149a266bc607320 | verity:boss | minecraft:entity | components | minecraft:despawn | never_despawn | child 'never_despawn' not valid here.
+
+
+[2026-08-15 17:39:49,875] [ERROR][Engine] behavior_pack开发测试 | actor_definitions | C:/Users/admin/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/e9dbb19bd5fd42b6b149a266bc607320 | verity:companion | minecraft:entity | components | minecraft:despawn | never_despawn | child 'never_despawn' not valid here.
+
+
+[2026-08-15 17:39:53,463] [INFO] sendWinPlayWorldDCLog: engine_launch gameserver_connect 0 start
+[2026-08-15 17:39:53,523] [INFO] sendWinPlayWorldDCLog: engine_launch gameserver_connect 0 done
+[2026-08-15 17:39:53,654] [INFO] sendWinPlayWorldDCLog: engine_launch client_connect 0 
+[2026-08-15 17:39:53,671] [INFO] sendWinPlayWorldDCLog: engine_launch resource_pack 0 start
+LoadWindowsAddonPy: modMain
+Traceback (most recent call last):
+  File "mod/common/minecraftMod.py", line 895, in ImportModMain
+  File "modMain", line 24, in init_server
+  File "redirect.py", line 110, in load_module
+  File "server_system", line 24, in <module>
+  File "redirect.py", line 110, in load_module
+  File "event.scare_director", line 16, in <module>
+ImportError: No module named verity_network
+[2026-08-15 17:39:57,496] [INFO] sendWinPlayWorldDCLog: engine_launch resource_pack 0 done
+[2026-08-15 17:39:57,733] [INFO] sendWinPlayWorldDCLog: engine_launch world_generation 0 start
+[2026-08-15 17:39:58,236] [INFO][Developer] Starting mobile logger
+[2026-08-15 17:39:59,273] [INFO][Developer] get_cls_by_clsstr client.ui.settingsScreenProxy SettingsScreenProxy
+[2026-08-15 17:39:59,276] [INFO][Developer] get_cls
+[2026-08-15 17:39:59,276] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:39:59,358] [INFO][Developer] get_cls_by_clsstr client.neteaseChatNew.ui.neteaseChatProxy NeteaseChatOldProxy
+[2026-08-15 17:39:59,365] [INFO][Developer] get_cls
+[2026-08-15 17:39:59,365] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:39:59,365] [INFO][Developer] get_cls_by_clsstr client.neteaseChatNew.ui.neteaseCmdBlockProxy NeteaseCmdBlockOldProxy
+[2026-08-15 17:39:59,365] [INFO][Developer] get_cls
+[2026-08-15 17:39:59,365] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:39:59,365] [INFO][Developer] get_cls_by_clsstr client.ui.reportScreenProxy ReportScreenOldProxy
+[2026-08-15 17:39:59,367] [INFO][Developer] get_cls
+[2026-08-15 17:39:59,367] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:39:59,371] [INFO][Developer] [GeneralSetting] _hasCocos=False
+[2026-08-15 17:39:59,371] [INFO][Developer] get_cls_by_clsstr mod.client.plugin.generalSetting.ui.PauseScreenProxy PauseScreenProxy
+[2026-08-15 17:39:59,371] [INFO][Developer] get_cls
+[2026-08-15 17:39:59,372] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:39:59,372] [INFO][Developer] [GeneralSetting] _RegisterProxy finished
+[2026-08-15 17:39:59,471] [ERROR][Engine] get_world_record: None
+[2026-08-15 17:39:59,473] [ERROR][Engine] set custom switch error 'NoneType' object has no attribute 'global_chat_mgr'
+[2026-08-15 17:39:59,660] [ERROR][Engine] get_world_record: None
+ecs_framework create entity  VipLogicServerEntity -4294967295
+ecs_framework entity dict  {'-4294967295': <server.appmgr.vipLogic.e_entity.VipLogicServerEntity.VipLogicServerEntity object at 0x0000020F4E683400>}
+[2026-08-15 17:39:59,752] [INFO][Developer] mod behavior paths =  ['C:/Users/admin/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/e9dbb19bd5fd42b6b149a266bc607320']
+[2026-08-15 17:39:59,753] [INFO][Developer] in CreateBooks: behavior 'C:/Users/admin/AppData/Roaming/MinecraftPE_Netease/games/com.netease/behavior_packs/e9dbb19bd5fd42b6b149a266bc607320' has no foldName 'customBooks' or path not valid, go on next behavior
+[2026-08-15 17:39:59,766] [ERROR][Engine] get_world_record: None
+ecs_framework create entity  VipLogicClientEntity -4294967295
+ecs_framework entity dict  {'-4294967295': <client.appmgr.vipLogic.e_entity.VipLogicClientEntity.VipLogicClientEntity object at 0x0000020F50B366A0>}
+ecs_framework AddComponent -4294967295 EVipSkinPartsUncoveredSteve
+ecs_framework sys onAddComp EHorseAnimSystem
+ecs_framework sys onAddComp ERideAnimSystem
+ecs_framework sys onAddComp EVipSkinPartsSystem
+ecs_framework sys onAddComp EHorseAnimPerspSystem
+[2026-08-15 17:40:15,894] [INFO] sendWinPlayWorldDCLog: engine_launch world_generation 0 done
+[2026-08-15 17:40:15,904] [INFO] sendWinPlayWorldDCLog: engine_launch split_screen 0 start
+[2026-08-15 17:40:15,937] [INFO] sendWinPlayWorldDCLog: engine_launch split_screen 0 done
+[2026-08-15 17:40:15,946] [INFO] sendWinPlayWorldDCLog: engine_launch resource_load 0 start
+[2026-08-15 17:40:15,947] [INFO] sendWinPlayWorldDCLog: engine_launch resource_load 0 done
+[2026-08-15 17:40:15,964] [INFO] sendWinPlayWorldDCLog: engine_launch user_appearance 0 start
+[2026-08-15 17:40:15,967] [INFO] sendWinPlayWorldDCLog: engine_launch user_appearance 0 done
+[2026-08-15 17:40:15,983] [INFO] sendWinPlayWorldDCLog: engine_launch cache_screen 0 start
+[2026-08-15 17:40:15,997] [INFO] sendWinPlayWorldDCLog: engine_launch cache_screen 0 done
+[2026-08-15 17:40:16,032] [INFO] sendWinPlayWorldDCLog: engine_launch simple_call 0 start
+[2026-08-15 17:40:16,032] [INFO] sendWinPlayWorldDCLog: engine_launch simple_call 0 done
+[2026-08-15 17:40:16,048] [INFO] sendWinPlayWorldDCLog: engine_launch game_screen 0 start
+[2026-08-15 17:40:16,059] [INFO] sendWinPlayWorldDCLog: engine_launch game_screen 0 done
+[2026-08-15 17:40:16,071] [INFO] sendWinPlayWorldDCLog: engine_launch game_screen 0 done
+[2026-08-15 17:40:16,395] [INFO][Developer] uimanager init
+[2026-08-15 17:40:16,411] [INFO][Developer] get_cls_by_clsstr client.ui.for_button_cancel PlayGame
+[2026-08-15 17:40:16,420] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,421] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,451] [INFO][Developer] get_cls_by_clsstr client.ui.vip_enter_screen VipEnterScreen
+[2026-08-15 17:40:16,454] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,454] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,459] [INFO][Developer] get_cls_by_clsstr client.ui.skinTransformButton SkinTransformButton
+[2026-08-15 17:40:16,461] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,461] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,490] [INFO][Developer] get_cls_by_clsstr mod.client.ui.pet.miniMapUIControl ParternerMiniMapScreen
+[2026-08-15 17:40:16,493] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,493] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,497] [INFO][Developer] start to do a gray request in parterner
+[2026-08-15 17:40:16,499] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petHudUI PetHudUI
+[2026-08-15 17:40:16,500] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,500] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,513] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petMainUI PetMainUI
+[2026-08-15 17:40:16,513] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,515] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,523] [INFO][Developer] get_cls_by_clsstr mod.client.ui.petEatUI PetEatUI
+[2026-08-15 17:40:16,523] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,523] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,532] [INFO][Developer] get_cls_by_clsstr mod.client.ui.multiHorseUI MultiHorseUI
+[2026-08-15 17:40:16,533] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,533] [INFO][Developer] get_cls success!!!
+[multiHorseUi]  [Create]  self.mContainerPos:  None
+[2026-08-15 17:40:16,542] [INFO][Developer] get_cls_by_clsstr client.ui.PopWindow PopWindow
+[2026-08-15 17:40:16,543] [INFO][Developer] get_cls
+[2026-08-15 17:40:16,543] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:16,546] [INFO][Developer] [GeneralSetting] _RegisterUI finished
+[2026-08-15 17:40:20,924] [INFO][Developer] get_cls_by_clsstr mod.client.plugin.generalSetting.ui.PauseScreenProxy PauseScreenProxy
+[2026-08-15 17:40:20,924] [INFO][Developer] get_cls
+[2026-08-15 17:40:20,924] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:20,924] [INFO][Developer] PauseScreenProxy Create
+[2026-08-15 17:40:21,753] [INFO] sendWinPlayWorldDCLog: engine_launch asynctaskprogresshandler 0 start
+[2026-08-15 17:40:24,803] [INFO][Developer] get_cls_by_clsstr client.ui.settingsScreenProxy SettingsScreenProxy
+[2026-08-15 17:40:24,805] [INFO][Developer] get_cls
+[2026-08-15 17:40:24,805] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:40:38,996] [INFO][Developer] do not load mount skin
+[2026-08-15 17:42:18,681] [INFO][Developer] get_cls_by_clsstr client.neteaseChatNew.ui.neteaseChatProxy NeteaseChatOldProxy
+[2026-08-15 17:42:18,681] [INFO][Developer] get_cls
+[2026-08-15 17:42:18,681] [INFO][Developer] get_cls success!!!
+[2026-08-15 17:42:26,763] [INFO][Developer] get_cls_by_clsstr client.neteaseChatNew.ui.neteaseChatProxy NeteaseChatOldProxy
+[2026-08-15 17:42:26,763] [INFO][Developer] get_cls
+[2026-08-15 17:42:26,763] [INFO][Developer] get_cls success!!!
+ecs_framework clear all
+ecs_framework clear all
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,012] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,012] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,022] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,022] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,033] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,033] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,046] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,046] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,053] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,053] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,188] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,190] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,193] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,193] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,197] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,197] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,201] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,201] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,207] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,207] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,214] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,214] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,240] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,240] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,257] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,257] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,263] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,263] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,308] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,308] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,313] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,313] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,341] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,341] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,358] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,358] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,367] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,367] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,407] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,408] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,414] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,414] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,441] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,441] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,459] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,459] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,463] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,463] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,509] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,509] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,515] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,515] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,526] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,526] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,558] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,558] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,565] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,565] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,608] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,608] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,615] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,615] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,641] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,641] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,658] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,658] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,664] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,664] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,716] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,716] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,720] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,720] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,733] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,733] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,766] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,766] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,770] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,770] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,799] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,801] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,815] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,815] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,834] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,834] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,867] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,868] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,872] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,872] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,901] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,901] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,917] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,917] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,934] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,934] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:45,967] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,967] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:45,970] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:45,970] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,000] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,000] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:46,016] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,016] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,033] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,033] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:46,066] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,066] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,072] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,072] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,099] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,099] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:46,698] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,698] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,703] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,703] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,713] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,713] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,717] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,717] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,720] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,720] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,724] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,724] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,730] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,732] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,734] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,734] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,743] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,743] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,747] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,747] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,752] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,752] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,755] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,756] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,759] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,759] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,763] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,763] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,766] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,766] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,770] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,770] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,775] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,775] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,779] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,779] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 50, in Call
+  File "mod/common/baseApp.py", line 33, in TickEngine
+  File "mod/common/baseApp.py", line 39, in PushTick
+  File "mod/client/clientApp.py", line 761, in TickApp
+AttributeError: 'NoneType' object has no attribute 'Tick'
+[2026-08-15 17:42:46,782] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,782] [ERROR][Engine] Error dump: None
+Traceback (most recent call last):
+  File "mod/common/system/eventBus.py", line 280, in Post
+  File "mod/common/system/eventHandler.py", line 27, in Call
+  File "mod/common/baseApp.py", line 36, in TickEngineNonChaseFrame
+  File "mod/client/clientApp.py", line 851, in TickAppNonChaseFrame
+  File "mod/client/appmgr/effectMgr.py", line 67, in Tick
+AttributeError: 'NoneType' object has no attribute 'time'
+[2026-08-15 17:42:46,871] [ERROR][Engine] post_error_dump: Starting error dump
+[2026-08-15 17:42:46,871] [ERROR][Engine] Error dump: None
+[2026-08-15 17:42:55] [Error] 断开日志连接
