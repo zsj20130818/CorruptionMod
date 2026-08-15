@@ -1,27 +1,27 @@
-# CorruptionMod- 网易《我的世界》基岩版
+# CorruptionMod - Netease Minecraft Bedrock Edition
 
-一个从 Java 版移植到网易基岩版的心理恐怖模组。
+A psychological horror mod ported from Java Edition to Netease Bedrock Edition.
 
-## 功能
-- 腐化值系统
-- Verity 伙伴召唤
-- 对话系统
-- 惊吓事件
+## Features
+- Corruption system
+- Verity companion summoning
+- Dialogue system
+- Jump scare events
 
-## 当前问题（急需帮助！）
+## Current Issues (Help Wanted!)
 - ❌ `ImportError: No module named verity_network`
-- ❌ 自定义生物蛋不显示
-- ❌ 实体模型加载失败
+- ❌ Custom spawn egg not showing in creative inventory
+- ❌ Entity model failed to load
 
-## 如何帮助
-1. Fork 本项目
-2. 创建你的分支
-3. 提交修改
-4. 发起 Pull Request
+## How to Help
+1. Fork this repository
+2. Create your feature branch
+3. Commit your changes
+4. Open a Pull Request
 
-## 许可证
+## License
 CC BY-NC-SA 4.0
 
-## 联系方式
-- GitHub Issues：直接在本项目提交 Issue
-- 邮箱：zsj201308182026@163.com（仅限项目相关）
+## Contact
+- GitHub Issues: Open an issue directly in this repository
+- Email: zsj201308182026@163.com (Project related only)
