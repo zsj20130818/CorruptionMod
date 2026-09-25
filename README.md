@@ -33,6 +33,10 @@ A psychological horror mod ported from Java Edition to Netease Bedrock Edition.
 - Custom spawn egg not showing in creative inventory
 - Entity model failed to load
 
+## Resolved
+- **`ImportError: No module named verity_network`**
+  - Fixed by restructuring scripts into a `VerityScripts/` folder (NetEase ModSDK requires scripts to live under a `*Scripts` directory for proper module registration).
+
 ## How to Help
 1. Fork this repository
 2. Create your feature branch
