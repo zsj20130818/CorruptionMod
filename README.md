@@ -11,8 +11,8 @@ A psychological horror mod ported from Java Edition to Netease Bedrock Edition.
 ## Known Issues
 
 ### 🔴 Critical
-- **`ImportError: No module named verity_network`**
-  - Location: `event/scare_director.py` line 16
+- **`ImportError: No module named progression.corruption_data`**
+  - Location: `server_system.py` line 22
   - Impact: Server-side init fails entirely, all server events dead
   - Status: Under investigation
 
